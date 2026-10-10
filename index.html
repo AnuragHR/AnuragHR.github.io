@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anurag Singh | Talent Acquisition & HR Professional</title>
+<meta name="description" content="Anurag Singh — Talent Acquisition & HR professional with 5 years in manufacturing and healthcare. High-volume hiring, HR operations and HR automation.">
+<meta property="og:title" content="Anurag Singh | Talent Acquisition & HR Professional">
+<meta property="og:description" content="5 years in HR · 800+ apprentices hired per year · HR automation & analytics">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='16' fill='%2314b8a6'/><text x='50%' y='54%' text-anchor='middle' dominant-baseline='middle' font-family='Arial' font-weight='700' font-size='28' fill='white'>AS</text></svg>">
+<style>
+:root{
+  --bg:#070d1a; --bg2:#0c1528; --card:rgba(255,255,255,.045); --line:rgba(255,255,255,.09);
+  --text:#e8eefc; --muted:#9aa8c7; --teal:#14b8a6; --sky:#38bdf8; --violet:#8b5cf6; --amber:#f59e0b;
+  --grad:linear-gradient(120deg,#14b8a6 0%,#38bdf8 50%,#8b5cf6 100%);
+  --r:18px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+.grad-text{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+
+/* background glow */
+.bg-orbs{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
+.bg-orbs span{position:absolute;border-radius:50%;filter:blur(90px);opacity:.35;animation:float 18s ease-in-out infinite}
+.bg-orbs span:nth-child(1){width:520px;height:520px;background:#0f766e;top:-140px;left:-120px}
+.bg-orbs span:nth-child(2){width:460px;height:460px;background:#1e40af;top:30%;right:-160px;animation-delay:-6s}
+.bg-orbs span:nth-child(3){width:380px;height:380px;background:#6d28d9;bottom:-120px;left:30%;animation-delay:-12s}
+@keyframes float{50%{transform:translate(40px,-30px) scale(1.08)}}
+
+/* nav */
+nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);background:rgba(7,13,26,.7);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.3px}
+.logo i{width:34px;height:34px;border-radius:10px;background:var(--grad);display:grid;place-items:center;font-style:normal;font-size:14px;color:#fff}
+.links{display:flex;gap:26px;font-size:14px;color:var(--muted);font-weight:500}
+.links a:hover{color:var(--text)}
+.nav-cta{padding:9px 18px;border-radius:999px;background:var(--grad);color:#fff;font-weight:700;font-size:14px}
+@media(max-width:820px){.links{display:none}}
+
+/* hero */
+.hero{padding:90px 0 60px;display:grid;grid-template-columns:1.25fr .75fr;gap:50px;align-items:center}
+.pill{display:inline-flex;align-items:center;gap:8px;padding:7px 14px;border:1px solid var(--line);border-radius:999px;font-size:13px;color:var(--muted);background:var(--card)}
+.pill b{width:8px;height:8px;border-radius:50%;background:#22c55e;box-shadow:0 0 0 4px rgba(34,197,94,.2);animation:pulse 2s infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 8px rgba(34,197,94,0)}}
+h1{font-size:clamp(40px,6vw,68px);line-height:1.05;font-weight:800;margin:20px 0 14px;letter-spacing:-1.5px}
+.role{font-size:clamp(18px,2.4vw,24px);font-weight:600;color:var(--muted);min-height:36px}
+.role .typed{color:var(--text);border-right:2px solid var(--teal);padding-right:4px}
+.lead{margin:18px 0 30px;color:var(--muted);font-size:17px;max-width:560px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;gap:9px;padding:13px 22px;border-radius:12px;font-weight:700;font-size:15px;transition:.25s}
+.btn svg{width:18px;height:18px}
+.btn.primary{background:var(--grad);color:#fff;box-shadow:0 10px 30px -10px rgba(56,189,248,.6)}
+.btn.ghost{border:1px solid var(--line);background:var(--card)}
+.btn:hover{transform:translateY(-2px)}
+.avatar-box{position:relative;justify-self:center}
+.avatar{width:290px;height:290px;border-radius:32px;background:var(--grad);display:grid;place-items:center;font-size:96px;font-weight:800;color:#fff;position:relative;box-shadow:0 30px 80px -20px rgba(20,184,166,.5);transform:rotate(-3deg)}
+.avatar::after{content:"";position:absolute;inset:10px;border-radius:24px;border:2px solid rgba(255,255,255,.35)}
+.float-tag{position:absolute;padding:10px 14px;border-radius:14px;background:rgba(12,21,40,.9);border:1px solid var(--line);font-size:13px;font-weight:600;backdrop-filter:blur(10px);display:flex;gap:8px;align-items:center;animation:bob 5s ease-in-out infinite;white-space:nowrap}
+.float-tag.t1{top:-14px;right:-40px}.float-tag.t2{bottom:30px;left:-60px;animation-delay:-2s}.float-tag.t3{bottom:-18px;right:-20px;animation-delay:-3.5s}
+@keyframes bob{50%{transform:translateY(-8px)}}
+@media(max-width:900px){.hero{grid-template-columns:1fr;text-align:left;padding-top:60px}.avatar-box{order:-1;margin-bottom:20px}.avatar{width:200px;height:200px;font-size:66px}.float-tag.t1{right:-60px}.float-tag.t2{left:-40px}}
+@media(max-width:520px){.float-tag{display:none}}
+
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:10px 0 40px}
+.stat{padding:26px 20px;border-radius:var(--r);background:var(--card);border:1px solid var(--line);text-align:center;position:relative;overflow:hidden}
+.stat::before{content:"";position:absolute;inset:0 0 auto;height:3px;background:var(--grad)}
+.stat .n{font-size:40px;font-weight:800}
+.stat .l{color:var(--muted);font-size:14px;font-weight:500}
+@media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}}
+
+/* sections */
+section{padding:70px 0}
+.eyebrow{color:var(--teal);font-weight:700;font-size:13px;letter-spacing:2.5px;text-transform:uppercase}
+h2{font-size:clamp(28px,4vw,40px);font-weight:800;letter-spacing:-.8px;margin:8px 0 14px}
+.sub{color:var(--muted);max-width:640px;margin-bottom:40px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:28px;transition:.3s}
+.card:hover{border-color:rgba(56,189,248,.35);transform:translateY(-4px);box-shadow:0 20px 50px -25px rgba(56,189,248,.35)}
+
+/* about */
+.about{display:grid;grid-template-columns:1.2fr .8fr;gap:24px}
+.about p{color:var(--muted);margin-bottom:14px;font-size:16.5px}
+.about p strong{color:var(--text)}
+.quote{margin-top:18px;padding:16px 20px;border-left:3px solid var(--teal);background:rgba(20,184,166,.07);border-radius:0 12px 12px 0;font-style:italic;color:var(--text)}
+.facts li{list-style:none;display:flex;gap:14px;padding:13px 0;border-bottom:1px dashed var(--line);font-size:15px}
+.facts li:last-child{border:none}
+.facts span{color:var(--muted);min-width:96px}
+@media(max-width:820px){.about{grid-template-columns:1fr}}
+
+/* timeline */
+.timeline{position:relative;padding-left:34px}
+.timeline::before{content:"";position:absolute;left:10px;top:6px;bottom:6px;width:2px;background:linear-gradient(var(--teal),var(--violet))}
+.job{position:relative;margin-bottom:24px}
+.job::before{content:"";position:absolute;left:-31px;top:30px;width:16px;height:16px;border-radius:50%;background:var(--bg);border:3px solid var(--sky)}
+.job-head{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;align-items:baseline}
+.job h3{font-size:20px;font-weight:700}
+.date{font-size:13px;font-weight:600;padding:5px 12px;border-radius:999px;background:rgba(56,189,248,.12);color:var(--sky)}
+.org{color:var(--teal);font-weight:600;margin:4px 0 14px;font-size:15px}
+.job ul{padding-left:0}
+.job li{list-style:none;position:relative;padding-left:22px;margin-bottom:8px;color:var(--muted)}
+.job li::before{content:"▹";position:absolute;left:0;color:var(--teal)}
+.job li b{color:var(--text)}
+.chip-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.chip{font-size:12.5px;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.06);border:1px solid var(--line);color:var(--text)}
+
+/* projects */
+.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.proj{display:flex;flex-direction:column}
+.proj .ic{width:52px;height:52px;border-radius:14px;display:grid;place-items:center;font-size:26px;margin-bottom:16px}
+.proj h3{font-size:19px;font-weight:700}
+.proj .tag{font-size:13px;color:var(--sky);font-weight:600;margin:2px 0 12px}
+.proj p{color:var(--muted);font-size:14.5px;margin-bottom:12px}
+.proj ul{margin-bottom:16px}
+.proj li{list-style:none;font-size:14px;color:var(--muted);padding-left:20px;position:relative;margin-bottom:6px}
+.proj li::before{content:"✓";position:absolute;left:0;color:var(--teal);font-weight:700}
+.proj .chip-row{margin-top:auto}
+.badge-wip{font-size:11px;font-weight:700;padding:3px 9px;border-radius:999px;background:rgba(245,158,11,.15);color:var(--amber);margin-left:8px;vertical-align:middle}
+@media(max-width:980px){.projects{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:640px){.projects{grid-template-columns:1fr}}
+
+/* achievements */
+.ach{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.ach .card{text-align:center}
+.ach .em{font-size:36px;margin-bottom:10px}
+.ach h4{font-size:16px;font-weight:700;margin-bottom:6px}
+.ach p{font-size:14px;color:var(--muted)}
+@media(max-width:900px){.ach{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.ach{grid-template-columns:1fr}}
+
+/* skills */
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.skills h4{font-size:16px;margin-bottom:14px;display:flex;gap:10px;align-items:center}
+.sk li{list-style:none;position:relative;padding:10px 0 10px 30px;border-bottom:1px dashed var(--line);color:var(--muted);font-size:15px}.sk li:last-child{border:none}.sk li::before{content:"✓";position:absolute;left:0;top:9px;width:20px;height:20px;border-radius:6px;background:var(--grad);color:#fff;font-size:12px;font-weight:800;display:grid;place-items:center}
+.bar div{display:flex;justify-content:space-between;font-size:14px;margin-bottom:6px;color:var(--muted)}
+.bar i{display:block;height:7px;border-radius:9px;background:rgba(255,255,255,.07);overflow:hidden}
+.bar i b{display:block;height:100%;width:0;background:var(--grad);border-radius:9px;transition:width 1.4s cubic-bezier(.2,.8,.2,1)}
+@media(max-width:900px){.skills{grid-template-columns:1fr}}
+
+/* edu */
+.edu{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.edu .yr{color:var(--teal);font-weight:700;font-size:13px}
+.edu h4{font-size:17px;margin:4px 0}
+.edu p{color:var(--muted);font-size:14px}
+@media(max-width:820px){.edu{grid-template-columns:1fr}}
+
+/* contact */
+.contact{text-align:center;padding:60px 30px;border-radius:28px;background:linear-gradient(135deg,rgba(20,184,166,.18),rgba(139,92,246,.18));border:1px solid var(--line)}
+.contact h2{margin-bottom:10px}
+.contact .btns{justify-content:center;margin-top:26px}
+footer{text-align:center;color:var(--muted);font-size:13px;padding:40px 0 50px}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .8s ease,transform .8s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div class="bg-orbs"><span></span><span></span><span></span></div>
+
+<nav>
+  <div class="wrap">
+    <a href="#top" class="logo"><i>AS</i> Anurag Singh</a>
+    <div class="links">
+      <a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+    </div>
+    <a class="nav-cta" href="mailto:luckysinghthakur27@gmail.com">Hire me</a>
+  </div>
+</nav>
+
+<main class="wrap" id="top">
+  <header class="hero">
+    <div>
+      <span class="pill"><b></b> Open to Talent Acquisition & HR roles</span>
+      <h1>Hi, I'm <span class="grad-text">Anurag Singh</span></h1>
+      <div class="role">I'm a <span class="typed" id="typed">Talent Acquisition Professional</span></div>
+      <p class="lead">5 years of end-to-end recruitment and HR operations across <strong style="color:var(--text)">manufacturing and healthcare</strong>. I hire at scale, onboard smoothly, and build my own HR tools to make HR faster, paperless and data-driven.</p>
+      <div class="btns">
+        <a class="btn primary" href="mailto:luckysinghthakur27@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Email me</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/anurag-singh-5051852b6/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>LinkedIn</a>
+        <a class="btn ghost" href="#projects">View my work →</a>
+      </div>
+    </div>
+    <div class="avatar-box">
+      <div class="avatar">AS</div>
+      <div class="float-tag t1">🎯 800+ hires / year</div>
+      <div class="float-tag t2">⚡ HR Automation</div>
+      <div class="float-tag t3">🏭 Manufacturing HR</div>
+    </div>
+  </header>
+
+  <div class="stats reveal">
+    <div class="stat"><div class="n grad-text"><span data-count="5">0</span>+</div><div class="l">Years in HR</div></div>
+    <div class="stat"><div class="n grad-text"><span data-count="800">0</span>+</div><div class="l">Apprentices hired / year</div></div>
+    <div class="stat"><div class="n grad-text"><span data-count="3">0</span></div><div class="l">Industries</div></div>
+    <div class="stat"><div class="n grad-text"><span data-count="6">0</span>+</div><div class="l">HR tools built</div></div>
+  </div>
+
+  <section id="about">
+    <div class="eyebrow reveal">About me</div>
+    <h2 class="reveal">People-first recruiter with a <span class="grad-text">builder's mindset</span></h2>
+    <div class="about">
+      <div class="card reveal">
+        <p>I'm a <strong>Talent Acquisition & HR professional</strong> who hires for technical, operational and managerial roles. I've led <strong>PAN-India hiring of ~800 apprentices every year</strong>, built a candidate referral program, and moved apprentice hiring away from third-party agencies to direct recruitment — saving significant cost.</p>
+        <p>I also love making HR work smarter. I design and build my own <strong>dashboards, letter generators and attendance systems</strong> using Google Sheets, Apps Script and AI tools.</p>
+        <div class="quote">"Right people, right role, right time — backed by clean data."</div>
+      </div>
+      <div class="card reveal">
+        <ul class="facts">
+          <li><span>📍 Location</span> Uttar Pradesh, India</li>
+          <li><span>💼 Experience</span> 5 years (Aug 2021 – Present)</li>
+          <li><span>🏭 Industries</span> Pharma · Healthcare · Steel</li>
+          <li><span>🎓 Education</span> B.Sc. · ITI (COPA)</li>
+          <li><span>🗣️ Languages</span> Hindi · English</li>
+          <li><span>✉️ Email</span> <a href="mailto:luckysinghthakur27@gmail.com" style="word-break:break-all">luckysinghthakur27@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="eyebrow reveal">Experience</div>
+    <h2 class="reveal">Professional journey</h2>
+    <p class="sub reveal">From plant-level apprentice hiring at scale to leading recruitment and HR operations.</p>
+    <div class="timeline">
+      <div class="job card reveal">
+        <div class="job-head"><h3>Assistant Manager – Operations & Talent Acquisition (HR)</h3><span class="date">Feb 2026 – Present</span></div>
+        <div class="org">Pharmaceutical manufacturing company</div>
+        <ul>
+          <li><b>End-to-end recruitment</b> — sourcing on Naukri.com and job portals, screening, shortlisting and interviews with department heads</li>
+          <li><b>Onboarding cycle</b> — documentation, joining formalities and induction</li>
+          <li>Employee records, HR databases and personnel files with accuracy and compliance</li>
+          <li>Leave, attendance and employee data through internal HR systems</li>
+          <li>Workforce planning and hiring-requirement analysis with department teams</li>
+          <li>HR policy implementation and resolving employee queries</li>
+        </ul>
+      </div>
+      <div class="job card reveal">
+        <div class="job-head"><h3>Sr. Executive – Talent Acquisition (HR)</h3><span class="date">Jul 2025 – Jan 2026</span></div>
+        <div class="org">Medical devices / healthcare company</div>
+        <ul>
+          <li>Sourced and shortlisted candidates through Naukri.com and other portals to meet hiring needs</li>
+          <li>Onboarding, documentation and record maintenance across HR databases</li>
+          <li>Leave and attendance management and day-to-day HR operations</li>
+          <li>Policy communication and coordination with departments</li>
+        </ul>
+      </div>
+      <div class="job card reveal">
+        <div class="job-head"><h3>HR Officer & HR Trainee – Talent Acquisition (HR)</h3><span class="date">Aug 2021 – Jul 2025</span></div>
+        <div class="org">Large integrated steel manufacturer</div>
+        <ul>
+          <li><b>HR Officer (May 2023 – Jul 2025):</b> Led PAN-India recruitment of <b>~800 apprentices per year</b> under the Apprentices Act — joining, accommodation, induction, payroll, attendance, grievances, statutory compliance, government stipend reimbursement and training completion</li>
+          <li><b>HR Trainee (Aug 2021 – May 2023):</b> PAN-India trainee hiring, joining and induction, payroll and attendance, government stipend reimbursements</li>
+          <li><b>NAPS & NATS portals:</b> apprenticeship compliance, multi-stakeholder coordination and issue resolution</li>
+        </ul>
+        <div class="chip-row"><span class="chip">Apprentices Act</span><span class="chip">Campus Hiring</span><span class="chip">Statutory Compliance</span><span class="chip">Payroll</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="eyebrow reveal">Projects</div>
+    <h2 class="reveal">HR tools I've <span class="grad-text">designed & built</span></h2>
+    <p class="sub reveal">Real tools used in day-to-day HR — built with Google Sheets, Apps Script, HTML/JavaScript and AI assistance.</p>
+    <div class="projects">
+      <div class="card proj reveal">
+        <div class="ic" style="background:rgba(20,184,166,.15)">🧭</div>
+        <h3>People Console</h3><div class="tag">Org Hierarchy & Workforce Analytics</div>
+        <p>Live web app synced to Google Sheets, showing the whole organisation as an interactive hierarchy.</p>
+        <ul><li>Salary bands & payroll totals</li><li>Span-of-control by manager</li><li>Automatic data-quality checks</li></ul>
+        <div class="chip-row"><span class="chip">HTML/JS</span><span class="chip">Google Sheets</span><span class="chip">Apps Script</span></div>
+      </div>
+      <div class="card proj reveal">
+        <div class="ic" style="background:rgba(56,189,248,.15)">📈</div>
+        <h3>Training Performance Dashboard</h3><div class="tag">Analytics for a 34-member sales/CRM team</div>
+        <p>Tracks every quiz and assessment with live refresh from Google Sheets.</p>
+        <ul><li>KPIs, leaderboard & watchlist</li><li>Weakest-topic & score charts</li><li>Per-employee exam drill-down</li></ul>
+        <div class="chip-row"><span class="chip">Chart.js</span><span class="chip">Google Sheets</span><span class="chip">Apps Script</span></div>
+      </div>
+      <div class="card proj reveal">
+        <div class="ic" style="background:rgba(139,92,246,.15)">📝</div>
+        <h3>Bilingual Training Assessments</h3><div class="tag">English + Hindi quizzes</div>
+        <p>Built from 35 training-video transcripts for sales and CRM teams.</p>
+        <ul><li>Test in preferred language</li><li>Live 40-question certification exam</li><li>Auto-scoring feeds the dashboard</li></ul>
+        <div class="chip-row"><span class="chip">Google Forms</span><span class="chip">Google Sheets</span></div>
+      </div>
+      <div class="card proj reveal">
+        <div class="ic" style="background:rgba(245,158,11,.15)">✉️</div>
+        <h3>HR Letter Desk</h3><div class="tag">Automated HR letters</div>
+        <p>One-page tool replacing manual letter drafting across multiple plants.</p>
+        <ul><li>Offer · Appointment · Confirmation</li><li>Experience · Relieving letters</li><li>Print-ready + Word download</li></ul>
+        <div class="chip-row"><span class="chip">HTML/JS</span><span class="chip">Word Export</span></div>
+      </div>
+      <div class="card proj reveal">
+        <div class="ic" style="background:rgba(34,197,94,.15)">⏱️</div>
+        <h3>Attendance & Leave System <span class="badge-wip">IN PROGRESS</span></h3><div class="tag">Darwinbox-style app for ~150 staff</div>
+        <p>Automates attendance from biometric punches through to payroll.</p>
+        <ul><li>Auto-sync from eSSL biometric</li><li>Late / half-day rules applied</li><li>Approvals + monthly payroll muster</li></ul>
+        <div class="chip-row"><span class="chip">Apps Script</span><span class="chip">eSSL</span><span class="chip">Google Sheets</span></div>
+      </div>
+      <div class="card proj reveal">
+        <div class="ic" style="background:rgba(236,72,153,.15)">🔐</div>
+        <h3>HR Self-Service Portal</h3><div class="tag">PIN login · role-based access</div>
+        <p>Separate, secure views for employees, managers and HR admins — plus HR policies & induction material.</p>
+        <ul><li>Attendance & discipline policy</li><li>Notice-board circulars</li><li>New-joiner induction deck</li></ul>
+        <div class="chip-row"><span class="chip">Role-based Access</span><span class="chip">HR Policy</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <div class="eyebrow reveal">Achievements</div>
+    <h2 class="reveal">Impact that mattered</h2>
+    <div class="ach" style="margin-top:30px">
+      <div class="card reveal"><div class="em">🥇</div><h4>Performance Award</h4><p>Recognised for exemplary performance and outstanding contribution</p></div>
+      <div class="card reveal"><div class="em">💰</div><h4>Removed Third-Party Agency</h4><p>Moved apprentice hiring in-house — big cost savings and more control</p></div>
+      <div class="card reveal"><div class="em">🤝</div><h4>Referral Program</h4><p>Increased internal referrals and lowered recruitment costs</p></div>
+      <div class="card reveal"><div class="em">🎓</div><h4>Campus Hiring</h4><p>Annual drives across WB, Odisha, Bihar, UP & Karnataka</p></div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="eyebrow reveal">Skills</div>
+    <h2 class="reveal">What I bring</h2>
+    <div class="skills" style="margin-top:30px">
+      <div class="card reveal">
+        <h4>🎯 Talent Acquisition</h4>
+        <ul class="sk">
+        <li>End-to-end Recruitment</li>
+        <li>High-volume / Apprentice Hiring</li>
+        <li>Campus Recruitment</li>
+        <li>Onboarding & Induction</li>
+        </ul>
+      </div>
+      <div class="card reveal">
+        <h4>⚙️ HR Operations & IR</h4>
+        <ul class="sk">
+        <li>Payroll, Leave & Attendance</li>
+        <li>Statutory & Labour Compliance</li>
+        <li>Grievance Handling & Engagement</li>
+        <li>HR Policy Implementation</li>
+        </ul>
+      </div>
+      <div class="card reveal">
+        <h4>📊 HR Tech & Analytics</h4>
+        <ul class="sk">
+        <li>Advanced Excel</li>
+        <li>HR Dashboards & Reporting</li>
+        <li>Google Sheets & Apps Script</li>
+        <li>AI Tools for HR</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card reveal" style="margin-top:20px">
+      <h4 style="margin-bottom:14px">🛠️ Tools I use</h4>
+      <div class="chip-row">
+        <span class="chip">Naukri.com</span><span class="chip">LinkedIn</span><span class="chip">Darwinbox HRMS</span><span class="chip">NAPS & NATS</span><span class="chip">eSSL Biometric</span><span class="chip">Swagat</span><span class="chip">Secure Eye</span><span class="chip">Insyspay</span><span class="chip">MS Excel</span><span class="chip">PowerPoint</span><span class="chip">Word</span><span class="chip">Google Sheets</span><span class="chip">Google Forms</span><span class="chip">Apps Script</span><span class="chip">Claude</span><span class="chip">ChatGPT</span><span class="chip">Gemini</span><span class="chip">Copilot</span><span class="chip">Perplexity</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="eyebrow reveal">Education</div>
+    <h2 class="reveal">Education & certifications</h2>
+    <div class="edu" style="margin-top:30px">
+      <div class="card reveal"><div class="yr">2019</div><h4>Bachelor of Science</h4><p>CSJM University</p></div>
+      <div class="card reveal"><div class="yr">2017</div><h4>ITI – Computer Operator & Programming Assistant</h4><p>Govt. Industrial Training Institute</p></div>
+      <div class="card reveal"><div class="yr">Certifications</div><h4>CCC · ADCA</h4><p>Course on Computer Concepts · Advanced Diploma in Computer Applications</p></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact reveal">
+      <div class="eyebrow">Let's work together</div>
+      <h2>Looking for a recruiter who <span class="grad-text">delivers at scale?</span></h2>
+      <p style="color:var(--muted)">Open to Talent Acquisition, HR Generalist and HR Operations roles. Happy to relocate.</p>
+      <div class="btns">
+        <a class="btn primary" href="mailto:luckysinghthakur27@gmail.com">✉️ luckysinghthakur27@gmail.com</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/anurag-singh-5051852b6/" target="_blank" rel="noopener">Connect on LinkedIn</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>© <span id="yr"></span> Anurag Singh · Talent Acquisition & HR · Hobbies: 🏐 Volleyball · 🏏 Cricket · ✈️ Travelling</footer>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+// typing effect
+const words=["Talent Acquisition Professional","High-Volume Hiring Specialist","HR Operations Expert","HR Automation Builder"];
+const el=document.getElementById('typed');let w=0,c=words[0].length,del=true;
+setTimeout(function tick(){const s=words[w];
+  if(del){c--; if(c===0){del=false;w=(w+1)%words.length;}}
+  else{c++; if(c===words[w].length){del=true;el.textContent=words[w];return setTimeout(tick,1800);}}
+  el.textContent=words[w].slice(0,c)||'​';setTimeout(tick,del?40:75);},1800);
+// reveal + counters + bars
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;const t=e.target;t.classList.add('in');
+  t.querySelectorAll('[data-count]').forEach(n=>{const end=+n.dataset.count;let st=null;const step=ts=>{st=st||ts;const p=Math.min((ts-st)/1400,1);n.textContent=Math.round(end*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(step)};requestAnimationFrame(step)});
+  t.querySelectorAll('[data-w]').forEach(b=>b.style.width=b.dataset.w+'%');io.unobserve(t);}),{threshold:.15});
+document.querySelectorAll('.reveal').forEach(x=>io.observe(x));
+</script>
+</body>
+</html>
